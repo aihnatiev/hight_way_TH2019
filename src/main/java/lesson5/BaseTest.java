@@ -11,8 +11,12 @@ public class BaseTest {
 
     @BeforeTest
     public void setUp() {
+//        System.setProperty("webdriver.chrome.driver",
+//                "/Users/andrii/Documents/autotests/HighwayToHELL2019/src/main/resources/webDrivers/chromedriver");
+
         System.setProperty("webdriver.chrome.driver",
-                "/Users/andrii/Documents/autotests/HighwayToHELL2019/src/main/resources/webDrivers/chromedriver");
+                "/Users/atom/Documents/autotests/hight_way_TH2019/src/main/resources/webDrivers/chromedriver");
+
         driver = new ChromeDriver();
     }
 

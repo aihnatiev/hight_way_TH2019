@@ -5,17 +5,17 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import java.util.List;
+import java.util.Scanner;
 
-public class LiniaKinoAlladinFilms extends BaseTest {
+public class LiniaKinoAlladinFilms {
 
     @Test
-    public void findAllFilms() {
-        driver.get("http://liniakino.com/showtimes/aladdin/");
-
-        List<WebElement> films = driver.findElements(By.xpath("//h1/a"));
-
-        for(WebElement film : films) {
-            System.out.println(film.getText());
-        }
+    public void asd() {
+        System.out.print("Введите любое целое число от 1 до 10: ");
+        Scanner scan = new Scanner(System.in);
+        int number = scan.nextInt();
+        System.out.println("Вы ввели число " + number);
     }
 }
+
+

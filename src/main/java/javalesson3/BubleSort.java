@@ -23,6 +23,5 @@ public class BubleSort {
             }
         }
         System.out.println(Arrays.toString(ar));
-
     }
 }
