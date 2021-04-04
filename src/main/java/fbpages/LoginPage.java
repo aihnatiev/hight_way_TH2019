@@ -22,8 +22,8 @@ public class LoginPage extends BasePage {
         super(driver);
     }
     public MainPage loginInFacebook() {
-        emailInput.sendKeys("+380934733286");
-        passInput.sendKeys("Gennadiy64");
+        emailInput.sendKeys("+");
+        passInput.sendKeys("");
         loginButton.click();
 
         return new MainPage();
